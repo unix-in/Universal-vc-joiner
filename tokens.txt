@@ -1,0 +1,7 @@
+# Discord Account Tokens
+# Format:
+# TOKEN
+# or
+# TOKEN:CHANNEL_ID
+# or
+# TOKEN:CHANNEL_ID:GUILD_ID

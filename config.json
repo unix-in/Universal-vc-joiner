@@ -1,0 +1,92 @@
+{
+    "settings": {
+        "auto_rejoin_on_disconnect": true,
+        "auto_connect_on_startup": true,
+        "reconnect_delay_seconds": 5,
+        "log_level": "INFO"
+    },
+    "controller_bot": {
+        "enabled": false,
+        "bot_token": "",
+        "prefix": "!"
+    },
+    "accounts": [
+        {
+            "name": "Account 01",
+            "token": "YOUR_DISCORD_TOKEN_HERE_1",
+            "guild_id": "",
+            "channel_id": "",
+            "self_mute": false,
+            "self_deaf": false,
+            "self_video": false,
+            "status": "online",
+            "activity": {
+                "type": "streaming",
+                "name": "Valorant",
+                "url": "https://www.twitch.tv/valorant",
+                "details": "Competitive 5v5",
+                "state": "Ranked Match"
+            }
+        },
+        {
+            "name": "Account 02",
+            "token": "YOUR_DISCORD_TOKEN_HERE_2",
+            "guild_id": "",
+            "channel_id": "",
+            "self_mute": true,
+            "self_deaf": true,
+            "self_video": false,
+            "status": "online",
+            "activity": {
+                "type": "listening",
+                "name": "Spotify",
+                "details": "Starboy",
+                "state": "The Weeknd"
+            }
+        },
+        {
+            "name": "Account 03",
+            "token": "YOUR_DISCORD_TOKEN_HERE_3",
+            "guild_id": "",
+            "channel_id": "",
+            "self_mute": false,
+            "self_deaf": false,
+            "self_video": false,
+            "status": "dnd",
+            "activity": {
+                "type": "playing",
+                "name": "Minecraft",
+                "details": "Survival Mode",
+                "state": "Building Base"
+            }
+        },
+        {
+            "name": "Account 04",
+            "token": "YOUR_DISCORD_TOKEN_HERE_4",
+            "guild_id": "",
+            "channel_id": "",
+            "self_mute": false,
+            "self_deaf": false,
+            "self_video": false,
+            "status": "idle",
+            "activity": {
+                "type": "custom",
+                "state": "In a private VC",
+                "emoji": "🎧"
+            }
+        },
+        {
+            "name": "Account 05",
+            "token": "YOUR_DISCORD_TOKEN_HERE_5",
+            "guild_id": "",
+            "channel_id": "",
+            "self_mute": false,
+            "self_deaf": false,
+            "self_video": false,
+            "status": "online",
+            "activity": {
+                "type": "none"
+            }
+        }
+    ]
+}
